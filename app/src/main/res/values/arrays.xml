@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="drink_quantity">
+        <item>200</item>
+        <item>150</item>
+        <item>175</item>
+        <item>225</item>
+        <item>250</item>
+        <item>275</item>
+        <item>300</item>
+    </string-array>
+</resources>

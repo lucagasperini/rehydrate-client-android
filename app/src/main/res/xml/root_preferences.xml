@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_general">
+
+        <ListPreference
+            android:defaultValue="200"
+            android:entries="@array/drink_quantity"
+            android:entryValues="@array/drink_quantity"
+            android:key="drink_quantity"
+            android:title="@string/settings_drink_quantity" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
