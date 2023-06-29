@@ -7,6 +7,7 @@ import java.text.ParsePosition
 
 class HourBarFormat : Format() {
     override fun format(p0: Any?, p1: StringBuffer?, p2: FieldPosition?): StringBuffer {
+        // plot has double on X value, then convert it to Int and write as String on plot
         if(p0 is Double) {
             return StringBuffer(p0.toInt().toString())
         } else {
@@ -21,6 +22,7 @@ class HourBarFormat : Format() {
 
 class QuantityBarFormat : Format() {
     override fun format(p0: Any?, p1: StringBuffer?, p2: FieldPosition?): StringBuffer {
+        // plot has double on X value, then convert it to Int and write as String on plot
         if(p0 is Double) {
             return StringBuffer(p0.toInt().toString())
         } else {
@@ -35,6 +37,7 @@ class QuantityBarFormat : Format() {
 
 class HistoryHourBarFormat(val labels: List<String>) : Format() {
     override fun format(p0: Any?, p1: StringBuffer?, p2: FieldPosition?): StringBuffer {
+        // plot has double on X value, then convert it to Int and write as String on plot
         if(p0 is Double) {
             return StringBuffer(labels[p0.toInt()])
         } else {

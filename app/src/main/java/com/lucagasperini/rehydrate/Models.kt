@@ -1,11 +1,10 @@
 package com.lucagasperini.rehydrate
 
 import kotlinx.serialization.Serializable
-import java.security.InvalidParameterException
-import java.text.FieldPosition
-import java.text.Format
-import java.text.ParsePosition
 
+// those class are used by json to decode information
+@Serializable
+data class HelloModel(val name: String, val version: Int)
 @Serializable
 data class PlanModel(val date: String, val quantity: Int)
 

@@ -1,30 +1,35 @@
 <resources>
-    <string name="app_name">ReHydrate</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="app_name" translatable="false">ReHydrate</string>
+    <string name="title_activity_settings">Settings</string>
 
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="settings_server_url">Server URL</string>
     <string name="settings_general">General</string>
     <string name="settings_drink_quantity">Drink quantity</string>
-    <string name="ui_auth_server_url">Server URL...</string>
-    <string name="ui_auth_user">Username...</string>
-    <string name="ui_auth_pass">Password...</string>
+    <string name="ui_auth_server_url">Server URL…</string>
+    <string name="ui_auth_user">Username…</string>
+    <string name="ui_auth_pass">Password…</string>
     <string name="ui_auth_login">Login</string>
-    <string name="ui_history_time_start">Time start...</string>
-    <string name="ui_history_time_end">Time end...</string>
+    <string name="ui_history_time_start">Time start…</string>
+    <string name="ui_history_time_end">Time end…</string>
     <string name="ui_history_update">Update</string>
+    <string name="ui_history_sum_hourly">Hourly</string>
+    <string name="ui_history_sum_daily">Daily</string>
+    <string name="ui_history_sum_weekly">Weekly</string>
+    <string name="ui_history_sum_monthly">Monthly</string>
+    <string name="ui_history_sum_yearly">Yearly</string>
+    <string name="ui_main_button_drink">Drink</string>
+    <string name="ui_menu_settings">Settings</string>
+    <string name="ui_menu_history">History</string>
+    <string name="ui_menu_logout">Logout</string>
+    <string name="ui_plot_line_history">History</string>
+    <string name="ui_plot_line_plan">Plan</string>
+
+    <string name="ui_toast_failed_login">Failed to login!</string>
+    <string name="ui_toast_invalid_respose_server">Invalid response from server!</string>
+    <string name="ui_toast_cannot_reach_server">Cannot reach the server!</string>
+    <string name="ui_toast_invalid_time_start_format">Invalid time start format</string>
+    <string name="ui_toast_invalid_time_end_format">Invalid time end format</string>
+    <string name="ui_toast_connection_error">Connection error!</string>
+    <string name="ui_toast_drank_water">Drank water</string>
 
 </resources>

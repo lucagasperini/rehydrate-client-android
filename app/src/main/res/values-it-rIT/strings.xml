@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReHydrate</string>
+    <string name="settings_server_url">URL del server</string>
+    <string name="settings_general">Generale</string>
+    <string name="settings_drink_quantity">Quantità di acqua</string>
+    <string name="ui_auth_server_url">URL del server…</string>
+    <string name="ui_auth_user">Nome utente…</string>
+    <string name="ui_auth_pass">Password…</string>
+    <string name="ui_auth_login">Accedi</string>
+    <string name="ui_history_time_start">Tempo di inizio…</string>
+    <string name="ui_history_time_end">Tempo di fine…</string>
+    <string name="ui_history_update">Aggiorna</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="ui_history_sum_hourly">Orariamente</string>
+    <string name="ui_history_sum_daily">Giornalmente</string>
+    <string name="ui_history_sum_weekly">Settimanalmente</string>
+    <string name="ui_history_sum_monthly">Mensilmente</string>
+    <string name="ui_history_sum_yearly">Annualmente</string>
+    <string name="ui_main_button_drink">Bevi</string>
+    <string name="ui_menu_settings">Impostazioni</string>
+    <string name="ui_menu_history">Storia</string>
+    <string name="ui_menu_logout">Esci</string>
+    <string name="ui_plot_line_history">Storia</string>
+    <string name="ui_plot_line_plan">Piano</string>
+    <string name="ui_toast_failed_login">Accesso fallito!</string>
+    <string name="ui_toast_invalid_respose_server">Risposta invalida dal server!</string>
+    <string name="ui_toast_cannot_reach_server">Non è possibile raggiungere il server!</string>
+    <string name="ui_toast_invalid_time_start_format">Formato del tempo di inizio invalido</string>
+    <string name="ui_toast_invalid_time_end_format">Formato del tempo di fine invalido</string>
+    <string name="ui_toast_connection_error">Errore di connessione!</string>
+    <string name="ui_toast_drank_water">Hai bevuto acqua</string>
+</resources>

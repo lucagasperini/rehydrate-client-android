@@ -1,17 +1,10 @@
 package com.lucagasperini.rehydrate
 
-import android.graphics.Color
-import android.widget.Toast
-import com.androidplot.util.PixelUtils
-import com.androidplot.xy.BarFormatter
-import com.androidplot.xy.BarRenderer
-import com.androidplot.xy.SimpleXYSeries
-import com.androidplot.xy.XYPlot
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
-
 class UtilsStatic {
     companion object {
+        val APP_SRV_NAME = "ReHydrate"
+        val APP_SRV_VERSION = 1000000
+
         val PREF_AUTH = "pref_auth"
         val PREF_AUTH_TOKEN = "auth_token"
         val PREF_AUTH_URL = "auth_url"

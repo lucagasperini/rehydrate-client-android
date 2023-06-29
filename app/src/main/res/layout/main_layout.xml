@@ -22,7 +22,7 @@
             android:layout_marginStart="156dp"
             android:layout_marginTop="54dp"
             android:layout_marginEnd="156dp"
-            android:text="Drink it"
+            android:text="@string/ui_main_button_drink"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
